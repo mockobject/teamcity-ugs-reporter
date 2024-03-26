@@ -10,17 +10,12 @@
          <source>target/teamcity-plugin.xml</source>
          <outputDirectory>/</outputDirectory>
      </file> 
-     <file>
-         <source>target/teamcity-ugs-reporter-agent.zip</source>
-         <outputDirectory>agent</outputDirectory>
-     </file> 
   </files>
   <moduleSets>
     <moduleSet>
        <useAllReactorProjects>true</useAllReactorProjects>
        <includes>
-           <include>org.mockobject.teamcity.ugs-reporter:teamcity-ugs-reporter-server</include>
-           <include>org.mockobject.teamcity.ugs-reporter:teamcity-ugs-reporter-common</include>
+           <include>org.mockobject.teamcity.ugs:teamcity-ugs-reporter-server</include>
        </includes> 
        <binaries>
            <outputDirectory>server</outputDirectory>

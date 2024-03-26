@@ -3,19 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>teamcity-ugs-reporter</artifactId>
-    <groupId>org.mockobject.teamcity.ugs-reporter</groupId>
+    <groupId>org.mockobject.teamcity.ugs</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <artifactId>teamcity-ugs-reporter-server</artifactId>
   <packaging>jar</packaging>
   <dependencies>
-
-    <dependency>
-      <groupId>org.mockobject.teamcity.ugs-reporter</groupId>
-      <artifactId>teamcity-ugs-reporter-common</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
 
     <dependency>
       <groupId>org.jetbrains.teamcity</groupId>
